@@ -9,13 +9,13 @@
   padding-top: 50px;
 }
 .paddingR50{
-  padding-right: : 50px;
+  padding-right: 50px;
 }
 .paddingB50{
-  padding-bottom: : 50px;
+  padding-bottom: 50px;
 }
 .paddingL50{
-  padding-left: : 50px;
+  padding-left: 50px;
 }
 .h1{
   font-size: 64px;
@@ -62,7 +62,7 @@ main .h2::before{
    width: 60px;
   display: block;
 background-color: #edb6cf;
-  magin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .sasun::before{
    content: "♥";
