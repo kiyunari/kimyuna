@@ -98,7 +98,7 @@ footer {
    margin-bottom: 26px;
  }
  footer section#fbottom .wrap ul li p {  
-   color: #e6c0cd;
+   color: #cfafbc;
  }
  footer section#fbottom .wrap ul li p span {
    
@@ -141,5 +141,3 @@ footer {
  footer a.top:hover::before{
    transform: translateY(-7px);
  }
- 
- 
