@@ -30,6 +30,7 @@ section#portfolio .wrap ul li div{
 }
 section#portfolio .wrap ul li div h3{
   color: #725e66;
+  padding: 0;
 }
 section#portfolio .wrap ul li div p{
   line-height: 2;
