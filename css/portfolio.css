@@ -18,7 +18,7 @@ section#portfolio .wrap>ul{
   padding-bottom: 30px;
 }
 section#portfolio .wrap ul li{
-  width: 70%;
+  width: 71%;
   margin: 0 auto;
   flex-direction: column;
 }
@@ -31,6 +31,8 @@ section#portfolio .wrap ul li div{
 section#portfolio .wrap ul li div h3{
   color: #725e66;
   padding: 0;
+  margin-bottom: 10px;
+  text-align: center;
 }
 section#portfolio .wrap ul li div p{
   line-height: 2;
