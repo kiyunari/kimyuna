@@ -12,12 +12,12 @@ section#skill .wrap p{
 }
 section#skill .wrap ul{
      justify-content: center;
-     gap: 165px;
+     gap: 80px;
      margin-top: 30px;
      background-color: #eee;
      border-radius: 20px;
      padding-top: 30px;
-     padding-bottom: 30px;
+     padding-bottom: 50px;
      flex-wrap: wrap;
 }
 section#skill .wrap ul li{
