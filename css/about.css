@@ -26,7 +26,7 @@ section#about .wrap p{
 }
 section#about .wrap ul{ 
   width: 60%;
-  margin: 0 auto;
+  magin: 0 auto;
 }
 section#about .wrap ul li{
   line-height: 1.6;

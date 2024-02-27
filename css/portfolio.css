@@ -23,13 +23,13 @@ section#portfolio .wrap ul li{
   flex-direction: column;
 }
 section#portfolio .wrap ul li img{
-  width: 1000px;
+  width: 300px;
 }
 section#portfolio .wrap ul li div{
   line-height: 1.6;
 }
 section#portfolio .wrap ul li div h3{
-  color: #86747c;
+  color: #725e66;
 }
 section#portfolio .wrap ul li div p{
   line-height: 2;
