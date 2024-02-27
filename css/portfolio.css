@@ -18,9 +18,14 @@ section#portfolio .wrap>ul{
   padding-bottom: 30px;
 }
 section#portfolio .wrap ul li{
-  width: 71%;
-  margin: 0 auto;
-  flex-direction: column;
+     justify-content: center;
+     gap: 40px;
+     margin-top: -10px;
+     background-color: #eee;
+     border-radius: 20px;
+     /*! padding-top: 30px; */
+     /*! padding-bottom: 30px; */
+     flex-wrap: wrap;
 }
 section#portfolio .wrap ul li img{
   width: 300px;
