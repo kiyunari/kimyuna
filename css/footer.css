@@ -102,8 +102,8 @@ footer {
  }
  footer section#fbottom .wrap ul li p span {
    
-   width: 140px;
-   display: inline-block;
+   width: 212px;
+   /*! display: inline-block; */
  }
  footer section#fbottom .wrap select {
    border: none;

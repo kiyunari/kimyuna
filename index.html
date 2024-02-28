@@ -27,13 +27,58 @@
     <link rel="stylesheet" href="css/skill.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function(){
+                //대메뉴클릭시 페이지스크롤링 이동  
+                  //about  
+                $("header ul.gnb li:nth-child(1) a").click(
+                    function(){
+                        $("html,body").animate({scrollTop:$(window).height()},1500);
+                      return false; 
+                    }
+                );
+                // skill
+                $("header ul.gnb li:nth-child(2) a").click(
+                    function(){
+                        $("html,body").animate({scrollTop:$(window).height()*2},1500); 
+                      return false; 
+                    }
+                );
+                // portfolio
+                $("header ul.gnb li:nth-child(3) a").click(
+                    function(){
+                      $("html,body").animate({scrollTop:$(window).height()*3},2000); 
+                      return false; 
+                    }
+                );
+                 //contact
+                $("header ul.gnb li:nth-child(4) a").click(
+                    function(){
+                      $("html,body").animate({scrollTop:$(window).height()*4},3000); 
+                      return false; 
+                    }
+                );
+               
+                $("footer a.top").click(
+                    function(){
+                      $("html,body").animate({scrollTop:0},1500); 
+                      return false; 
+                    }
+                );  
+        });
+    </script>
 </head>
 <body>
     <!-- 상단영역 -->
     <header>
         <div class="wrap">
             <h1><a href="#">Kiyu's Homepage</a></h1>
-            <ul>
+            <ul class="gnb">
                 <li><a href="#">about me</a></li>
                 <li><a href="#" class="sasun">skill&tool</a></li>
                 <li><a href="#" class="sasun">portfolio</a></li>
@@ -128,8 +173,8 @@
                     <ul class="flex">
                         <li>
                             <h3 class="h6">contact</h3>
-                            <p class="p"><span>이메일 </span>kiyu@kakao.com</p>
-                            <p class="p"><span>블로그 </span>https://blog.naver.com/q-nal2</p>
+                            <p class="p"><span>이메일 </span><a href="kiyu@kakao.com" target="_blank"><span>kiyu@kakao.com</span></a></p>
+                            <p class="p"><span>블로그 </span><a href="https://blog.naver.com/q-nal2" target="_blank"><span>https://blog.naver.com/q-nal2</span></a></p>
                         </li>
                     </ul>
                     <select name="" id="">
