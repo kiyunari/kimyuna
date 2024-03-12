@@ -32,6 +32,12 @@ section#about .wrap ul li{
   line-height: 1.6;
   gap: 20px;
 }
+section#about .wrap ul li span{
+  color: #555;
+}
+section#about .wrap ul li:first-child{
+  font-size: 40px;
+}
 section#about .wrap ul li:nth-child(1)::before{
        background-image: url(../img/af.png);
 }

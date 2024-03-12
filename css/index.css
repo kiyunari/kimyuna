@@ -25,6 +25,7 @@ header .wrap{
   background-position: center bottom;
   font-family: 'Berkshire Swash', serif;
   font-size: 150%;
+  color: #333;
  }
  header ul{
    display: flex;
@@ -36,7 +37,10 @@ header .wrap{
     
  }
  header ul li a{
-    
+  color: #333;
+  text-transform: capitalize;
+  /*! font-weight: 600; */
+  letter-spacing: 1px;
  }
   /* 자식선택자 : 바로 아래있는 선택자(태그) */
 header div.wrap>a{
@@ -55,21 +59,30 @@ header div.wrap>a{
    background-image: url(https://images.unsplash.com/photo-1586809764311-090bc6068916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
    background-size: cover;
    background-position: center bottom;
+   height: calc(100% - 60px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
  div#title div.wrap{ /* 하위선택자 */
    width: 1440px;
    margin: 0 auto;
-   height: 800px;
+   /*! height: 800px; */
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    gap: 40px;
  }
+div#title div.wrap h2{
+  
+  color: #333;
+}
  div h2{
  
   font-family: 'Berkshire Swash', serif;
  }
  div p{ 
-  color: #ab8a98;
+  color: #3e3b3c;
+  font-size: 20px;
  }
