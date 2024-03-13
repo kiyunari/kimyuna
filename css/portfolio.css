@@ -9,26 +9,45 @@ section#portfolio .wrap h2{
 }
 section#portfolio .wrap p{
    
+  line-height: 2;
 }
-section#portfolio .wrap>ul{
+section#portfolio .wrap .graphic{
+  margin-top: 17px;
+}
+section#portfolio .wrap .graphic h3{
+  
+  line-height: 2;
+}
+section#portfolio .wrap .pf>ul{
   margin-top: 30px;
   background-color: #ebecf0;
   border-radius: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
+  gap: 20px;
+  padding: 30px;
 }
 section#portfolio .wrap ul li{
      justify-content: center;
      gap: 40px;
-     margin-top: -10px;
+     /*! margin-top: -10px; */
      background-color: #eee;
      border-radius: 20px;
      /*! padding-top: 30px; */
      /*! padding-bottom: 30px; */
      flex-wrap: wrap;
 }
-section#portfolio .wrap ul li img{
-  width: 300px;
+section#portfolio .wrap ul li  a{
+  display: block;
+}
+section#portfolio .wrap .graphic{
+  margin-bottom:60px; 
+}
+section#portfolio .wrap .graphic ul li img{
+  width: 100%;
+}
+section#portfolio .wrap .web ul li img{
+  width:40%;
 }
 section#portfolio .wrap ul li div{
   line-height: 1.6;
