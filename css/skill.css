@@ -1,11 +1,14 @@
 section#skill{
-
+       height: 100vh;
+       min-height: 700px;
 }
 section#skill .wrap{
    
 }
 section#skill .wrap h2{
-   
+       /*! text-align: center; */
+       width: fit-content;
+       margin: 0 auto;
 }
 section#skill .wrap p{
      margin-bottom: 20px;
@@ -66,13 +69,13 @@ section#skill .wrap ul li:nth-child(7)::before{
        background-image: url(../img/wa.png);
 }
 section#skill .wrap ul li:nth-child(8)::before{
-       background-image: url(../img/ov.png);
+       background-image: url(../img/ps.png);
 }
 section#skill .wrap ul li:nth-child(9)::before{
        background-image: url(../img/ai.png);
 }
 section#skill .wrap ul li:nth-child(10)::before{
-       background-image: url(../img/ps.png);
+       background-image: url(../img/ov.png);
 }
 section#skill .wrap ul li:nth-child(11)::before{
        background-image: url(../img/pr.png);

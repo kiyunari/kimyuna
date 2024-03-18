@@ -5,7 +5,8 @@ section#portfolio .wrap{
    
 }
 section#portfolio .wrap h2{
-   
+  width: fit-content;
+  margin: 0 auto;
 }
 section#portfolio .wrap p{
    
@@ -18,6 +19,12 @@ section#portfolio .wrap .graphic h3{
   
   line-height: 2;
 }
+section#portfolio .wrap .pf.graphic > ul{
+  gap: 50px;
+  justify-content: center;
+}
+  
+
 section#portfolio .wrap .pf>ul{
   margin-top: 30px;
   background-color: #ebecf0;
@@ -26,6 +33,18 @@ section#portfolio .wrap .pf>ul{
   padding-bottom: 30px;
   gap: 20px;
   padding: 30px;
+  flex-wrap: wrap;
+}
+section#portfolio .wrap .pf.web > ul{
+  display: flex;
+  flex-wrap: nowrap;
+}
+section#portfolio .wrap .pf.web > ul li{
+  width: 
+}
+section#portfolio .wrap .graphic ul li{
+  
+  width: 40%;
 }
 section#portfolio .wrap ul li{
      justify-content: center;
@@ -39,15 +58,17 @@ section#portfolio .wrap ul li{
 }
 section#portfolio .wrap ul li  a{
   display: block;
+  height: 100%;
 }
 section#portfolio .wrap .graphic{
   margin-bottom:60px; 
 }
 section#portfolio .wrap .graphic ul li img{
   width: 100%;
+  height: 100%;
 }
 section#portfolio .wrap .web ul li img{
-  width:40%;
+  width:100%;
 }
 section#portfolio .wrap ul li div{
   line-height: 1.6;
